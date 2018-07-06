@@ -6,29 +6,13 @@
     "require": {
         "php": "^7.1",
 
-        "sylius/sylius": "^1.1",
-        "league/tactician-bundle": "^0.4",
-        "league/tactician-doctrine": "^1.1"
-    },
-    "require-dev": {
-        "lakion/api-test-case": "^1.1",
-        "phpspec/phpspec": "^3.2",
-        "lexik/jwt-authentication-bundle": "^2.4",
-        "matthiasnoback/symfony-config-test": "^2.0",
-        "matthiasnoback/symfony-dependency-injection-test": "^1.0",
-        "phpunit/phpunit": "^5.6",
-        "doctrine/common": "<2.8",
-        "symplify/easy-coding-standard": "^2.4",
-        "sylius-labs/coding-standard": "^1.0"
+        "sylius/sylius": "^1.2",
+        "league/tactician-bundle": "*",
+        "league/tactician-doctrine": "*"
     },
     "autoload": {
         "psr-4": {
             "Sylius\\ShopApiPlugin\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\Sylius\\ShopApiPlugin\\": "tests/"
         }
     },
     "suggest": {
